@@ -5,37 +5,149 @@
             <h2>Department Faculty</h2>
         </div>
 
-        <!-- CPU Usage -->
         <div class="row clearfix">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="card">
                     <div class="header">
-                        <h3>University of Southern California - Viterbi,</h3>
-                        <h2>Department of Computer Science</h2>
+                        <h3>
+                            University of Southern California - Viterbi,
+                        </h3>
+                        <h2>
+                            Department of Computer Science
+                        </h2>
                     </div>
-                    
-                    <div class="body header">
-                        <h3 class="card-title"><a href="<?php echo base_url() ?>Professor/detail_professor">Professor abc</a></h3>
-                        <h2>CS - 608, Introduction to Computer Architecture</h2>
+                    <div class="body">
+                        <div class="table-responsive">
+                            <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper form-inline dt-bootstrap">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <table class="table table-hover table-responsive js-basic-example dataTable" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+                                            <thead>
+                                                <tr role="row">
+                                                    <th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Name: activate to sort column ascending">Name</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Code: activate to sort column ascending">Subject Code</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Subject: activate to sort column ascending">Subject</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Rating: activate to sort column ascending">Overall Rating</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr role="row" class="odd">
+                                                    <td class="sorting_1">
+                                                        <h4>
+                                                            <a href="#">
+                                                                James Satou
+                                                            </a>
+                                                        </h4>
+                                                    </td>
+                                                    <td>CS - 608</td>
+                                                    <td>Introduction to Computer Architecture</td>
+                                                    <td>4</td>
+                                                </tr>
+                                                <tr role="row" class="even">
+                                                    <td class="sorting_1">
+                                                        <h4>
+                                                            <a href="<?php echo base_url() ?>Professor/detail_professor_ramos">
+                                                                Kulic Ramos
+                                                            </a>
+                                                        </h4>
+                                                    </td>
+                                                    <td>CS - 608</td>
+                                                    <td>Introduction to Computer Architecture</td>
+                                                    <td>2.5</td>
+                                                </tr>
+                                                <tr role="row" class="odd">
+                                                    <td class="sorting_1">
+                                                        <h4>
+                                                            <a href="<?php echo base_url() ?>Professor/detail_professor_wang">
+                                                                Jason Wang
+                                                            </a>
+                                                        </h4>
+                                                    </td>
+                                                    <td>CS - 634</td>
+                                                    <td>Data Mining</td>
+                                                    <td>4</td>
+                                                </tr>
+                                                <tr role="row" class="even">
+                                                    <td class="sorting_1">
+                                                        <h4>
+                                                            <a href="#">
+                                                                Bradley Greer
+                                                            </a>
+                                                        </h4>
+                                                    </td>
+                                                    <td>CS - 634</td>
+                                                    <td>Data Mining</td>
+                                                    <td>3.5</td>
+                                                </tr>
+                                                <tr role="row" class="odd">
+                                                    <td class="sorting_1">
+                                                        <h4>
+                                                            <a href="<?php echo base_url() ?>Professor/detail_professor_ashton">
+                                                                Ashton Cox
+                                                            </a>
+                                                        </h4>
+                                                    </td>
+                                                    <td>CS - 645</td>
+                                                    <td>Internet and Higher Level Protocol</td>
+                                                    <td>2.5</td>
+                                                </tr>
+                                                <tr role="row" class="even">
+                                                    <td class="sorting_1">
+                                                        <h4>
+                                                            <a href="#">
+                                                                Olivia P
+                                                            </a>
+                                                        </h4>
+                                                    </td>
+                                                    <td>CS - 645</td>
+                                                    <td>Internet and Higher Level Protocol</td>
+                                                    <td>3.5</td>
+                                                </tr>
+                                                <tr role="row" class="odd">
+                                                    <td class="sorting_1">
+                                                        <h4>
+                                                            <a href="<?php echo base_url() ?>Professor/detail_professor_quinn">
+                                                                Leonard Quinn
+                                                            </a>
+                                                        </h4>
+                                                    </td>
+                                                    <td>CS - 632</td>
+                                                    <td>OS</td>
+                                                    <td>3</td>
+                                                </tr>
+                                                <tr role="row" class="even">
+                                                    <td class="sorting_1">
+                                                        <h4>
+                                                            <a href="#">
+                                                                Jerad Jones
+                                                            </a>
+                                                    </td>
+                                                    <td>CS - 632</td>
+                                                    <td>OS</td>
+                                                    <td>2</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-7">
+                                        <div class="dataTables_paginate paging_simple_numbers" id="DataTables_Table_0_paginate">
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="body header">
-                        <h3 class="card-title"><a href="#">Professor pqr</a></h3>
-                        <h2>CS - 634, Data Mining</h2>
-                    </div>
-
-                    <div class="body header">
-                        <h3 class="card-title"><a href="#">Professor xyz</a></h3>
-                        <h2>CS - 626, OS</h2>
-                    </div>
-
-                    <div class="body header">
-                        <h3 class="card-title"><a href="#">Professor ehg</a></h3>
-                        <h2>CS - 631, DSA</h2>
-                    </div>
-                    
                 </div>
             </div>
         </div>
-    </div>
 </section>
+<?php //include('includes/footer.php') ?>
+
+<style>
+    .dataTables_filter {
+        float: right;
+    }
+</style>
