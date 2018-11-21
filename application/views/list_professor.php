@@ -28,6 +28,7 @@
                                                     <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Code: activate to sort column ascending">Subject Code</th>
                                                     <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Subject: activate to sort column ascending">Subject</th>
                                                     <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Rating: activate to sort column ascending">Overall Rating</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Rating: activate to sort column ascending">Highlights</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -42,6 +43,11 @@
                                                     <td>CS - 608</td>
                                                     <td>Introduction to Computer Architecture</td>
                                                     <td>4</td>
+                                                    <td>
+                                                        <span class="label bg-green">Will take his course again</span>
+                                                        <span class="label bg-green">Nice Faculty; Learned a lot</span>
+                                                        <span class="label bg-green">Easy Grader</span>
+                                                    </td>
                                                 </tr>
                                                 <tr role="row" class="even">
                                                     <td class="sorting_1">
@@ -54,6 +60,9 @@
                                                     <td>CS - 608</td>
                                                     <td>Introduction to Computer Architecture</td>
                                                     <td>2.5</td>
+                                                    <td>
+                                                        <span class="label bg-red">Not Recommended</span>
+                                                    </td>
                                                 </tr>
                                                 <tr role="row" class="odd">
                                                     <td class="sorting_1">
@@ -66,6 +75,12 @@
                                                     <td>CS - 634</td>
                                                     <td>Data Mining</td>
                                                     <td>4</td>
+                                                    <td>
+                                                        <span class="label bg-green">Will take his course again</span>
+                                                        <span class="label bg-green">Good Work Experience</span> <br><br>
+                                                        <span class="label bg-green">Teaches through Industry Experience</span>
+                                                        <span class="label bg-green">Nice Faculty</span>
+                                                    </td>
                                                 </tr>
                                                 <tr role="row" class="even">
                                                     <td class="sorting_1">
@@ -78,6 +93,10 @@
                                                     <td>CS - 634</td>
                                                     <td>Data Mining</td>
                                                     <td>3.5</td>
+                                                    <td>
+                                                        <span class="label bg-amber">Lots of assignment</span>
+                                                        <span class="label bg-lime">Solved most my doubts</span>
+                                                    </td>
                                                 </tr>
                                                 <tr role="row" class="odd">
                                                     <td class="sorting_1">
@@ -90,6 +109,10 @@
                                                     <td>CS - 645</td>
                                                     <td>Internet and Higher Level Protocol</td>
                                                     <td>2.5</td>
+                                                    <td>
+                                                        <span class="label bg-red">Won't take again</span>
+                                                        <span class="label bg-red">Tough Grader</span>
+                                                    </td>
                                                 </tr>
                                                 <tr role="row" class="even">
                                                     <td class="sorting_1">
@@ -102,6 +125,10 @@
                                                     <td>CS - 645</td>
                                                     <td>Internet and Higher Level Protocol</td>
                                                     <td>3.5</td>
+                                                    <td>
+                                                        <span class="label bg-amber">Lots of assignment though</span>
+                                                        <span class="label bg-green">Nice Faculty</span>
+                                                    </td>
                                                 </tr>
                                                 <tr role="row" class="odd">
                                                     <td class="sorting_1">
@@ -114,6 +141,10 @@
                                                     <td>CS - 632</td>
                                                     <td>OS</td>
                                                     <td>3</td>
+                                                    <td>
+                                                        <span class="label bg-amber">Lots of Assignment</span>
+                                                        <span class="label bg-orange">Tough Exams</span>
+                                                    </td>
                                                 </tr>
                                                 <tr role="row" class="even">
                                                     <td class="sorting_1">
@@ -125,6 +156,11 @@
                                                     <td>CS - 632</td>
                                                     <td>OS</td>
                                                     <td>2</td>
+                                                    <td>
+                                                        <span class="label bg-red">Not Recommended</span>
+                                                        <span class="label bg-red">Learned Nothing</span>
+                                                        <span class="label bg-orange">Tough Exams</span>
+                                                    </td>
                                                 </tr>
                                             </tbody>
                                         </table>
