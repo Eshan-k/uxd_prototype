@@ -5,8 +5,7 @@
 		<div class="block-header">
 			<h2></h2>
 		</div>
-		
-		<!-- CPU Usage -->
+  
 		<div class="row clearfix">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="card">
@@ -128,8 +127,7 @@
 <style>
 	.dataTables_filter {
 		float: right;
-    label: { content: "Filter: " }
-	}
+    }
 	.dataTables_length {
 		display: none;
 	}
