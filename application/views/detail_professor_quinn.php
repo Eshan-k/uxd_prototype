@@ -20,7 +20,9 @@
 					</div>
 					
 					<div class="body">
-						<h2 class="card-inside-title"></h2>
+						<h2 class="card-inside-title">
+                            <img src="../../public/images/quinn.jpeg" style="width: 250px" height="250px" class="img-responsive">
+                        </h2>
 						<div class="row clearfix">
 							<div class="col-sm-12">
 								<div class="form-group">

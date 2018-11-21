@@ -17,7 +17,7 @@
 		}
 		
 		public function detail_professor_wang() {
-			$this->load->view('detail_professor_wang');
+			$this->load->view('detail_professor_samantha');
 		}
 		
 		public function detail_professor_quinn() {

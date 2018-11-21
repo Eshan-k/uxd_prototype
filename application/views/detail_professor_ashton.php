@@ -15,12 +15,14 @@
 						<h2>CS - 645, Internet and Higher Level Protocol
 							<span><a href="#">LinkedIn</a></span></h2>
 						<span class="header-dropdown m-r--5">
-							<h3>Overall Rating: 2/5</h3>
+							<h3>Overall Rating: <span class="label bg-red">2</span></h3>
 						</span>
 					</div>
 					
 					<div class="body">
-						<h2 class="card-inside-title"></h2>
+						<h2 class="card-inside-title">
+                            <img src="../../public/images/ash.jpeg" style="width: 250px" height="250px" class="img-responsive">
+                        </h2>
 						<div class="row clearfix">
 							<div class="col-sm-12">
 								<div class="form-group">

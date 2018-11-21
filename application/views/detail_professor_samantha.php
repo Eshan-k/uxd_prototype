@@ -11,7 +11,7 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="card">
 					<div class="header">
-						<h3 class="text-black">Professor Wang</h3>
+						<h3 class="text-black">Professor Johnson</h3>
 						<h2>CS - 634, Data Mining&nbsp;
 							<span><a target="_blank" href="#">LinkedIn</a></span></h2>
 						<span class="header-dropdown m-r--5">
@@ -20,12 +20,14 @@
 					</div>
 					
 					<div class="body">
-						<h2 class="card-inside-title"></h2>
+						<h2 class="card-inside-title">
+                            <img src="../../public/images/643.jpeg" style="width: 250px" height="250px" class="img-responsive">
+                        </h2>
 						<div class="row clearfix">
 							<div class="col-sm-12">
 								<div class="form-group">
 									<h4>
-										My name is Jason Wang, I have done my master's in computer science, from
+										My name is Samantha Johnson, I have done my master's in computer science, from
 										University of Texas - Austin.
 										I teaching this subject from the past 16 years.
 										<br>
