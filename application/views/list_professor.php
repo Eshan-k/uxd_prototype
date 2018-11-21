@@ -35,7 +35,7 @@
                                                 <tr role="row" class="odd">
                                                     <td class="sorting_1">
                                                         <h4>
-                                                            <a href="#">
+                                                            <a class="text-danger" href="#">
                                                                 James Satou
                                                             </a>
                                                         </h4>
@@ -53,7 +53,7 @@
                                                     <td class="sorting_1">
                                                         <h4>
                                                             <a href="<?php echo base_url() ?>Professor/detail_professor_ramos">
-                                                                Kulic Ramos
+                                                                    Kulic Ramos
                                                             </a>
                                                         </h4>
                                                     </td>
@@ -68,7 +68,7 @@
                                                     <td class="sorting_1">
                                                         <h4>
                                                             <a href="<?php echo base_url() ?>Professor/detail_professor_wang">
-                                                                Jason Wang
+                                                                Samantha Johnson
                                                             </a>
                                                         </h4>
                                                     </td>
@@ -85,7 +85,7 @@
                                                 <tr role="row" class="even">
                                                     <td class="sorting_1">
                                                         <h4>
-                                                            <a href="#">
+                                                            <a class="text-danger" href="#">
                                                                 Bradley Greer
                                                             </a>
                                                         </h4>
@@ -117,7 +117,7 @@
                                                 <tr role="row" class="even">
                                                     <td class="sorting_1">
                                                         <h4>
-                                                            <a href="#">
+                                                            <a class="text-danger" href="#">
                                                                 Olivia P
                                                             </a>
                                                         </h4>
@@ -149,7 +149,7 @@
                                                 <tr role="row" class="even">
                                                     <td class="sorting_1">
                                                         <h4>
-                                                            <a href="#">
+                                                            <a class="text-danger" href="#">
                                                                 Jerad Jones
                                                             </a>
                                                     </td>

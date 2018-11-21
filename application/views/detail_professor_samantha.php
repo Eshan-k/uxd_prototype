@@ -15,7 +15,7 @@
 						<h2>CS - 634, Data Mining&nbsp;
 							<span><a target="_blank" href="#">LinkedIn</a></span></h2>
 						<span class="header-dropdown m-r--5">
-							<h3>Overall Rating: 4/5</h3>
+							<h3>Overall Rating: <span class="label bg-green">4</span></h3>
 						</span>
 					</div>
 					
@@ -128,6 +128,7 @@
 <style>
 	.dataTables_filter {
 		float: right;
+    label: { content: "Filter: " }
 	}
 	.dataTables_length {
 		display: none;
