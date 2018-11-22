@@ -15,7 +15,7 @@
                         <h2>CS - 645, Internet and Higher Level Protocol
                             <span><a href="#">LinkedIn</a></span></h2>
                         <span class="header-dropdown m-r--5">
-							<h3>Overall Rating: <span class="label bg-red">2</span></h3>
+							<h3>Overall Rating: <span class="label bg-red">2.5</span></h3>
 						</span>
                     </div>
 

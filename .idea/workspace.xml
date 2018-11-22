@@ -142,22 +142,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="6" />
+          <entry key="php" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="6" />
+          <entry key="PHP" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="485" />
+          <entry key="php" value="586" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="485" />
+          <entry key="PHP" value="586" />
         </counts>
       </usages-collector>
     </session>
@@ -173,40 +173,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/detail_professor_samantha.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="147" column="39" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="147" selection-end-column="39" />
+            <state relative-caret-position="395">
+              <caret line="127" column="64" selection-start-line="127" selection-start-column="64" selection-end-line="127" selection-end-column="64" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#section#0;n#!!top" />
                 <element signature="n#style#0;n#img#0;n#h2#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#div#2;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#section#0;n#!!top" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/detail_professor_quinn.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="108" column="53" selection-start-line="108" selection-start-column="53" selection-end-line="108" selection-end-column="53" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#section#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#section#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/detail_professor_ramos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-414">
-              <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -258,10 +234,10 @@
         <option value="$PROJECT_DIR$/application/views/list_professor.php" />
         <option value="$PROJECT_DIR$/application/views/includes/nav_bar.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
-        <option value="$PROJECT_DIR$/application/views/detail_professor_ashton.php" />
-        <option value="$PROJECT_DIR$/application/views/detail_professor_ramos.php" />
-        <option value="$PROJECT_DIR$/application/views/detail_professor_samantha.php" />
         <option value="$PROJECT_DIR$/application/views/detail_professor_quinn.php" />
+        <option value="$PROJECT_DIR$/application/views/detail_professor_ramos.php" />
+        <option value="$PROJECT_DIR$/application/views/detail_professor_ashton.php" />
+        <option value="$PROJECT_DIR$/application/views/detail_professor_samantha.php" />
       </list>
     </option>
   </component>
@@ -391,23 +367,22 @@
       <workItem from="1542749753026" duration="32000" />
       <workItem from="1542815637110" duration="6522000" />
       <workItem from="1542828594893" duration="27000" />
-      <workItem from="1542918597082" duration="2932000" />
+      <workItem from="1542918597082" duration="3212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46437000" />
+    <option name="totallyTimeSpent" value="46717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.2932761" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.2932761" />
       <window_info id="Structure" order="1" sideWeight="0.50089765" side_tool="true" weight="0.2746781" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,7 +390,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -686,26 +661,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/detail_professor_ashton.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#section#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="325">
+          <caret line="91" column="64" selection-start-line="91" selection-start-column="64" selection-end-line="91" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/detail_professor_samantha.php">
+    <entry file="file://$PROJECT_DIR$/application/views/detail_professor_ramos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="147" column="39" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="147" selection-end-column="39" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#h2#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#section#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="231">
+          <caret line="91" column="67" selection-start-line="91" selection-start-column="67" selection-end-line="91" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -720,10 +684,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/detail_professor_ramos.php">
+    <entry file="file://$PROJECT_DIR$/application/views/detail_professor_samantha.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-414">
-          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+        <state relative-caret-position="395">
+          <caret line="127" column="64" selection-start-line="127" selection-start-column="64" selection-end-line="127" selection-end-column="64" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#section#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#h2#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#section#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
