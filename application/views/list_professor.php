@@ -35,7 +35,7 @@
                                                 <tr role="row" class="">
                                                     <td class="">
                                                         <h4>
-                                                            <a class="text-danger" href="#">
+                                                            <a href="<?php echo base_url() ?>Professor/detail_professor_satou">
                                                                 James Satou
                                                             </a>
                                                         </h4>
@@ -53,7 +53,7 @@
                                                     <td class="">
                                                         <h4>
                                                             <a href="<?php echo base_url() ?>Professor/detail_professor_ramos">
-                                                                    Kulic Ramos
+                                                                Kulic Ramos
                                                             </a>
                                                         </h4>
                                                     </td>
@@ -68,7 +68,7 @@
                                                     <td class="">
                                                         <h4>
                                                             <a href="<?php echo base_url() ?>Professor/detail_professor_samantha">
-                                                                <i>Samantha Johnson</i>
+                                                                Samantha Johnson
                                                             </a>
                                                         </h4>
                                                     </td>
@@ -86,7 +86,7 @@
                                                     <td class="">
                                                         <h4>
                                                             <a href="<?php echo base_url() ?>Professor/detail_professor_greer">
-                                                                <i>Bradley Greer</i>
+                                                                Bradley Greer
                                                             </a>
                                                         </h4>
                                                     </td>
@@ -102,7 +102,7 @@
                                                 <tr role="row" class="">
                                                     <td class="">
                                                         <h4>
-                                                            <a href="<?php echo base_url() ?>Professor/detail_professor_ashton">
+                                                            <a class="text-danger" href="#">
                                                                 Ashton Cox
                                                             </a>
                                                         </h4>
@@ -134,7 +134,7 @@
                                                 <tr role="row" class="">
                                                     <td class="">
                                                         <h4>
-                                                            <a href="<?php echo base_url() ?>Professor/detail_professor_quinn">
+                                                            <a class="text-danger" href="#">
                                                                 Leonard Quinn
                                                             </a>
                                                         </h4>
@@ -153,6 +153,7 @@
                                                             <a class="text-danger" href="#">
                                                                 Jerad Jones
                                                             </a>
+                                                        </h4>
                                                     </td>
                                                     <td>CS - 632</td>
                                                     <td>OS</td>

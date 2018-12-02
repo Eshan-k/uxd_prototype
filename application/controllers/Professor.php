@@ -8,15 +8,15 @@
 			$this->load->view('list_professor');
 		}
 		
+		/* ----working------ */
 		public function detail_professor_ramos() {
 			$this->load->view('detail_professor_ramos');
 		}
 		
 		public function detail_professor_ashton() {
-			$this->load->view('detail_professor_ashton');
+			$this->load->view('detail_professor_satou');
 		}
 		
-		/* working */
 		public function detail_professor_samantha() {
 			$this->load->view('detail_professor_samantha');
 		}
@@ -24,7 +24,7 @@
 		public function detail_professor_greer() {
 			$this->load->view('detail_professor_greer');
 		}
-		/* working */
+		/* -------working------ */
 		
 		public function detail_professor_quinn() {
 			$this->load->view('detail_professor_quinn');
