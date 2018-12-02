@@ -16,9 +16,15 @@
 			$this->load->view('detail_professor_ashton');
 		}
 		
-		public function detail_professor_wang() {
+		/* working */
+		public function detail_professor_samantha() {
 			$this->load->view('detail_professor_samantha');
 		}
+		
+		public function detail_professor_greer() {
+			$this->load->view('detail_professor_greer');
+		}
+		/* working */
 		
 		public function detail_professor_quinn() {
 			$this->load->view('detail_professor_quinn');

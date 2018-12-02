@@ -27,18 +27,20 @@
                             <div class="col-sm-12">
                                 <div class="form-group">
                                     <h3>
-                                        My name is Ashton,
-                                        I teaching this subject from the past 5 years.
+                                        Master of Computer Science - UTD
                                         <br><br>
                                     </h3>
                                     <h4>
                                         Office Hours: Tuesday, 1pm - 4pm<br><br>
-                                        Email: ashton@faculty.com
+                                        Email: ashton@faculty.com<br><br>
+                                        Course Pre-requisite : Knowledge of C, C++.
                                     </h4>
                                 </div>
                             </div>
                         </div>
-
+                        <div class="body col-sm-offset-5">
+                            <input type="button" class="btn bg-purple waves-effect" data-toggle="modal" data-target="#smallModal" value="Rate & Review">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -122,6 +124,60 @@
             </div>
         </div>
         <!-- Ratings and Reviews End-->
+        <div class="modal fade" id="smallModal" tabindex="-1" role="dialog" style="display: none;">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="smallModalLabel">Rate & Review</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row clearfix">
+                            <div class="col-md-12">
+
+                                <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="material-icons">person</i>
+                                </span>
+                                    <b>Prof. Ashton</b>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <b>Rate</b>
+                                <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="material-icons">star</i>
+                                </span>
+                                    <div class="form-line">
+                                        <input type="text" id="rate" name="rate" class="form-control" placeholder="Ex: 2.5, 4">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <b>Review</b>
+                                <div class="input-group">
+                                            <span class="input-group-addon">
+                                                <i class="material-icons"></i>
+                                            </span>
+                                    <div class="form-line">
+                                        <input type="text" id="review" name="review" class="form-control" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="body col-sm-offset-5">
+                                <input type="button" class="btn bg-purple waves-effect" data-toggle="modal" data-target="#smallModal" value="Submit" onclick="set_value()">
+                            </div>
+
+                            <!-- Small Size -->
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
 	</div>
 </section>
 

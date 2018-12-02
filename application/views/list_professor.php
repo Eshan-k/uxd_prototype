@@ -24,16 +24,16 @@
                                         <table class="table table-hover table-responsive js-basic-example dataTable" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
                                             <thead>
                                                 <tr role="row">
-                                                    <th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Name: activate to sort column ascending">Name</th>
-                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Code: activate to sort column ascending">Subject Code</th>
-                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Subject: activate to sort column ascending">Subject</th>
-                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Rating: activate to sort column ascending">Overall Rating</th>
-                                                    <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Rating: activate to sort column ascending">Highlights</th>
+                                                    <th class="" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Name: activate to sort column ascending">Name</th>
+                                                    <th class="" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Code: activate to sort column ascending">Subject Code</th>
+                                                    <th class="" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Subject: activate to sort column ascending">Subject</th>
+                                                    <th class="" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Rating: activate to sort column ascending">Overall Rating</th>
+                                                    <th class="" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Highlights: activate to sort column ascending">Highlights</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr role="row" class="odd">
-                                                    <td class="sorting_1">
+                                                <tr role="row" class="">
+                                                    <td class="">
                                                         <h4>
                                                             <a class="text-danger" href="#">
                                                                 James Satou
@@ -42,15 +42,15 @@
                                                     </td>
                                                     <td>CS - 608</td>
                                                     <td>Introduction to Computer Architecture</td>
-                                                    <td>4</td>
+                                                    <td>4.0</td>
                                                     <td>
                                                         <span class="label bg-green">Will take his course again</span>
                                                         <span class="label bg-green">Nice Faculty; Learned a lot</span>
                                                         <span class="label bg-green">Easy Grader</span>
                                                     </td>
                                                 </tr>
-                                                <tr role="row" class="even">
-                                                    <td class="sorting_1">
+                                                <tr role="row" class="">
+                                                    <td class="">
                                                         <h4>
                                                             <a href="<?php echo base_url() ?>Professor/detail_professor_ramos">
                                                                     Kulic Ramos
@@ -64,17 +64,17 @@
                                                         <span class="label bg-red">Not Recommended</span>
                                                     </td>
                                                 </tr>
-                                                <tr role="row" class="odd">
-                                                    <td class="sorting_1">
+                                                <tr role="row" class="">
+                                                    <td class="">
                                                         <h4>
-                                                            <a href="<?php echo base_url() ?>Professor/detail_professor_wang">
-                                                                Samantha Johnson
+                                                            <a href="<?php echo base_url() ?>Professor/detail_professor_samantha">
+                                                                <i>Samantha Johnson</i>
                                                             </a>
                                                         </h4>
                                                     </td>
                                                     <td>CS - 634</td>
                                                     <td>Data Mining</td>
-                                                    <td>4</td>
+                                                    <td>4.0</td>
                                                     <td>
                                                         <span class="label bg-green">Will take his course again</span>
                                                         <span class="label bg-green">Good Work Experience</span> <br><br>
@@ -82,24 +82,25 @@
                                                         <span class="label bg-green">Nice Faculty</span>
                                                     </td>
                                                 </tr>
-                                                <tr role="row" class="even">
-                                                    <td class="sorting_1">
+                                                <tr role="row" class="">
+                                                    <td class="">
                                                         <h4>
-                                                            <a class="text-danger" href="#">
-                                                                Bradley Greer
+                                                            <a href="<?php echo base_url() ?>Professor/detail_professor_greer">
+                                                                <i>Bradley Greer</i>
                                                             </a>
                                                         </h4>
                                                     </td>
                                                     <td>CS - 634</td>
                                                     <td>Data Mining</td>
-                                                    <td>3.5</td>
+                                                    <td>3.0</td>
                                                     <td>
+                                                        <span class="label bg-amber">Take classes on Saturday</span>
                                                         <span class="label bg-amber">Lots of assignment</span>
-                                                        <span class="label bg-lime">Solved most my doubts</span>
+                                                        <span class="label bg-orange">Tough Grader</span>
                                                     </td>
                                                 </tr>
-                                                <tr role="row" class="odd">
-                                                    <td class="sorting_1">
+                                                <tr role="row" class="">
+                                                    <td class="">
                                                         <h4>
                                                             <a href="<?php echo base_url() ?>Professor/detail_professor_ashton">
                                                                 Ashton Cox
@@ -114,8 +115,8 @@
                                                         <span class="label bg-red">Tough Grader</span>
                                                     </td>
                                                 </tr>
-                                                <tr role="row" class="even">
-                                                    <td class="sorting_1">
+                                                <tr role="row" class="">
+                                                    <td class="">
                                                         <h4>
                                                             <a class="text-danger" href="#">
                                                                 Olivia P
@@ -130,8 +131,8 @@
                                                         <span class="label bg-green">Nice Faculty</span>
                                                     </td>
                                                 </tr>
-                                                <tr role="row" class="odd">
-                                                    <td class="sorting_1">
+                                                <tr role="row" class="">
+                                                    <td class="">
                                                         <h4>
                                                             <a href="<?php echo base_url() ?>Professor/detail_professor_quinn">
                                                                 Leonard Quinn
@@ -140,14 +141,14 @@
                                                     </td>
                                                     <td>CS - 632</td>
                                                     <td>OS</td>
-                                                    <td>3</td>
+                                                    <td>3.0</td>
                                                     <td>
                                                         <span class="label bg-amber">Lots of Assignment</span>
                                                         <span class="label bg-orange">Tough Exams</span>
                                                     </td>
                                                 </tr>
-                                                <tr role="row" class="even">
-                                                    <td class="sorting_1">
+                                                <tr role="row" class="">
+                                                    <td class="">
                                                         <h4>
                                                             <a class="text-danger" href="#">
                                                                 Jerad Jones
@@ -155,7 +156,7 @@
                                                     </td>
                                                     <td>CS - 632</td>
                                                     <td>OS</td>
-                                                    <td>2</td>
+                                                    <td>2.5</td>
                                                     <td>
                                                         <span class="label bg-red">Not Recommended</span>
                                                         <span class="label bg-red">Learned Nothing</span>

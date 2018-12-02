@@ -11,27 +11,27 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="header">
-                        <h3 class="text-black">Professor Johnson</h3>
+                        <h3 class="text-black">Professor Greer</h3>
                         <h2>CS - 634, Data Mining&nbsp;
                             <span><a target="_blank" href="#">LinkedIn</a></span></h2>
                         <span class="header-dropdown m-r--5">
-							<h3>Overall Rating: <span class="label bg-green">4.0</span></h3>
+							<h3>Overall Rating: <span class="label bg-amber">3.0</span></h3>
 						</span>
                     </div>
 
                     <div class="body">
                         <h2 class="card-inside-title">
-                            <img src="../../public/images/643.jpeg" style="width: 250px" height="250px" class="img-responsive">
+                            <img src="../../public/images/greer.jpg" style="width: 250px" height="250px" class="img-responsive">
                         </h2>
                         <div class="row clearfix">
                             <div class="col-sm-12">
                                 <div class="form-group">
                                     <h3>
-                                        Master's in computer science, from University of Texas - Austin.<br><br>
+                                        Master's in Computer science - Boston University<br><br>
                                     </h3>
                                     <h4>
-                                        Office Hours: Wednesday, 1pm - 4pm<br><br>
-                                        Email: johnson@faculty.com<br><br>
+                                        Office Hours: Thursday, 1pm - 4pm<br><br>
+                                        Email: greer@faculty.com<br><br>
                                         Course Pre-requisite : Knowledge of C, C++ or approval from advisor.
                                     </h4>
                                 </div>
@@ -57,16 +57,8 @@
                         </label>
                         <ul class="ml-menu" style="display: none;">
                             <h4>
-                                Interested in Deep Learning. Doing research on <i>xyz</i>.
+                                Doing research on <i>Data Mining</i> in Medical field.
                                 <br>
-                                In deep learning, each level learns to transform its input data into a slightly
-                                more abstract and composite representation. In an image recognition application,
-                                the raw input may be a matrix of pixels; the first representational layer may
-                                abstract the pixels and encode edges; the second layer may compose and encode
-                                arrangements of edges; the third layer may encode a nose and eyes; and the
-                                fourth layer may recognize that the image contains a face. Importantly, a deep
-                                learning process can learn which features to optimally place in which level on
-                                its own.
                             </h4>
                         </ul>
                     </div>
@@ -101,32 +93,26 @@
                                             <tr role="row" class="odd">
                                                 <td>7/26/2017</td>
                                                 <td>Student 1a</td>
-                                                <td>Nice Faculty, learned a lot.</td>
-                                                <td>4</td>
+                                                <td>Takes classes on Saturday</td>
+                                                <td>2.5</td>
                                             </tr>
                                             <tr role="row" class="even">
                                                 <td>2/11/2017</td>
                                                 <td>Student 2b</td>
-                                                <td>Lot of assignment.</td>
-                                                <td>3.5</td>
+                                                <td>Lots of Assignment; did'nt take exams</td>
+                                                <td>3</td>
                                             </tr>
                                             <tr role="row" class="odd">
                                                 <td>12/22/2016</td>
                                                 <td>Student 3c</td>
-                                                <td>Good work experience.</td>
-                                                <td>4</td>
+                                                <td>Tough Exams</td>
+                                                <td>2.5</td>
                                             </tr>
                                             <tr role="row" class="even">
                                                 <td>11/2/2016</td>
                                                 <td>Student 4d</td>
-                                                <td>Teaches through industry experience.</td>
-                                                <td>4</td>
-                                            </tr>
-                                            <tr role="row" class="odd">
-                                                <td>10/1/2016</td>
-                                                <td>Student 5e</td>
-                                                <td>Nice Faculty.</td>
-                                                <td>4</td>
+                                                <td>Lots of Assignment</td>
+                                                <td>3</td>
                                             </tr>
                                             </tbody>
                                         </table>
@@ -146,7 +132,6 @@
             </div>
         </div>
         <!-- Ratings and Reviews End-->
-
         <div class="modal fade" id="smallModal" tabindex="-1" role="dialog" style="display: none;">
             <div class="modal-dialog modal-sm" role="document">
                 <div class="modal-content">
@@ -156,15 +141,15 @@
                     <div class="modal-body">
                         <div class="row clearfix">
                             <div class="col-md-12">
-                                
+
                                 <div class="input-group">
                                 <span class="input-group-addon">
                                     <i class="material-icons">person</i>
                                 </span>
-                                    <b>Samamtha Johnson</b>
+                                    <b>Bradley Greer</b>
                                 </div>
                             </div>
-                            
+
                             <div class="col-md-12">
                                 <b>Rate</b>
                                 <div class="input-group">
@@ -201,15 +186,13 @@
                 </div>
             </div>
         </div>
-    </div>
-    <input type="hidden" id="t_date" name="t_date" value="">
-    
+	</div>
 </section>
 
 <style>
 	.dataTables_filter {
 		float: right;
-    }
+	}
 	.dataTables_length {
 		display: none;
 	}
