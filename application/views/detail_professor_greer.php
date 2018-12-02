@@ -114,6 +114,12 @@
                                                 <td>Lots of Assignment</td>
                                                 <td>3</td>
                                             </tr>
+                                            <tr id="xyz" role="row" class="even">
+                                                <td id="s_date"></td>
+                                                <td id="s_name"></td>
+                                                <td id="s_review"></td>
+                                                <td id="s_rate"></td>
+                                            </tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -197,3 +203,20 @@
 		display: none;
 	}
 </style>
+
+<script>
+    function set_value() {
+        var rating = document.getElementById("rate").value;
+        var review = document.getElementById("review").value;
+        
+
+        document.getElementById("s_date").innerHTML = '<?php echo date('d-m-Y')?>';
+
+        document.getElementById("s_name").innerHTML = 'Sean';
+        document.getElementById("s_rate").innerHTML = rating;
+        document.getElementById("s_review").innerHTML = review;
+
+
+        //document.getElementById("xyz").style.display = 'block';
+    }
+</script>

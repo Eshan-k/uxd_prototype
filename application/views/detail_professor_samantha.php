@@ -99,13 +99,13 @@
                                             </thead>
                                             <tbody>
                                             <tr role="row" class="odd">
-                                                <td>7/26/2017</td>
+                                                <td>07/26/2017</td>
                                                 <td>Student 1a</td>
                                                 <td>Nice Faculty, learned a lot.</td>
                                                 <td>4</td>
                                             </tr>
                                             <tr role="row" class="even">
-                                                <td>2/11/2017</td>
+                                                <td>02/11/2017</td>
                                                 <td>Student 2b</td>
                                                 <td>Lot of assignment.</td>
                                                 <td>3.5</td>
@@ -127,6 +127,12 @@
                                                 <td>Student 5e</td>
                                                 <td>Nice Faculty.</td>
                                                 <td>4</td>
+                                            </tr>
+                                            <tr id="xyz" role="row" class="even">
+                                                <td id="s_date"></td>
+                                                <td id="s_name"></td>
+                                                <td id="s_review"></td>
+                                                <td id="s_rate"></td>
                                             </tr>
                                             </tbody>
                                         </table>
@@ -202,8 +208,6 @@
             </div>
         </div>
     </div>
-    <input type="hidden" id="t_date" name="t_date" value="">
-    
 </section>
 
 <style>
@@ -214,3 +218,18 @@
 		display: none;
 	}
 </style>
+
+<script>
+    function set_value() {
+        var rating = document.getElementById("rate").value;
+        var review = document.getElementById("review").value;
+        
+        document.getElementById("s_date").innerHTML = '<?php echo date('d-m-Y')?>';
+
+        document.getElementById("s_name").innerHTML = 'Sean';
+        document.getElementById("s_rate").innerHTML = rating;
+        document.getElementById("s_review").innerHTML = review;
+
+        //document.getElementById("xyz").style.display = 'block';
+    }
+</script>
