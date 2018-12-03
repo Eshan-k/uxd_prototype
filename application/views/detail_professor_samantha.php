@@ -178,7 +178,7 @@
                                     <i class="material-icons">star</i>
                                 </span>
                                     <div class="form-line">
-                                        <input type="text" id="rate" name="rate" class="form-control" placeholder="Ex: 2.5, 4">
+                                        <input type="text" id="rate" name="rate"  class="form-control" placeholder="Ex: 2.5, 4">
                                     </div>
                                 </div>
                             </div>
@@ -232,4 +232,6 @@
 
         //document.getElementById("xyz").style.display = 'block';
     }
+
+    
 </script>

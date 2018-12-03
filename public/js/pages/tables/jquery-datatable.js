@@ -1,6 +1,9 @@
 $(function () {
     $('.js-basic-example').DataTable({
-        responsive: true
+        responsive: true,
+        "language": {
+            "search": "Filter records:"
+        }
     });
 
     //Exportable table
@@ -9,6 +12,9 @@ $(function () {
         responsive: true,
         buttons: [
             'copy', 'csv', 'excel', 'pdf', 'print'
-        ]
+        ],
+        "language": {
+            "search": "Filter records:"
+        }
     });
 });
