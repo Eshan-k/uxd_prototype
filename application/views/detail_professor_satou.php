@@ -21,7 +21,7 @@
 
                     <div class="body">
                         <h2 class="card-inside-title">
-                            <img src="../../public/images/643.jpeg" style="width: 250px" height="250px" class="img-responsive">
+                            <img src="../../public/images/quinn.jpeg" style="width: 250px" height="250px" class="img-responsive">
                         </h2>
                         <div class="row clearfix">
                             <div class="col-sm-12">
@@ -153,7 +153,7 @@
                                 <span class="input-group-addon">
                                     <i class="material-icons">person</i>
                                 </span>
-                                    <b>Samamtha Johnson</b>
+                                    <b>Prof. Satou</b>
                                 </div>
                             </div>
                             
