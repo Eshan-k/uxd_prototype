@@ -224,7 +224,7 @@
         var rating = document.getElementById("rate").value;
         var review = document.getElementById("review").value;
         
-        document.getElementById("s_date").innerHTML = '<?php echo date('d-m-Y')?>';
+        document.getElementById("s_date").innerHTML = '<?php echo date('m-d-Y')?>';
 
         document.getElementById("s_name").innerHTML = 'Sean';
         document.getElementById("s_rate").innerHTML = rating;
