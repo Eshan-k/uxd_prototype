@@ -13,7 +13,7 @@
 			$this->load->view('detail_professor_ramos');
 		}
 		
-		public function detail_professor_ashton() {
+		public function detail_professor_satou() {
 			$this->load->view('detail_professor_satou');
 		}
 		
