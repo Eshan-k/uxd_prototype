@@ -21,22 +21,28 @@
 					
 					<div class="body">
 						<h2 class="card-inside-title">
-                            <img src="../../public/images/ramos.jpeg" style="width: 250px" height="250px" class="img-responsive">
+                        
                         </h2>
 						<div class="row clearfix">
-							<div class="col-sm-12">
-								<div class="form-group">
-									<h3>
-                                        Master of Computer Science - UNCC
-                                        <br><br>
-									</h3>
-                                    <h4>
-                                        Office Hours: Monday, 1pm - 4pm<br><br>
-                                        Email: ramos@faculty.com<br><br>
-                                        Course Pre-requisite : -
-                                    </h4>
-								</div>
-							</div>
+                            <table>
+                                <tr>
+                                    <td align="left" width="450px">
+                                        <img src="../../public/images/ramos.jpeg" style="width: 250px" height="250px" class="img-responsive">
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <h3>
+                                                Master of Computer Science - UNCC<br><br>
+                                            </h3>
+                                            <h4>
+                                                Office Hours: Monday, 1pm - 4pm<br><br>
+                                                Email: ramos@faculty.com<br><br>
+                                                Course Pre-requisite : -
+                                            </h4>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
 						</div>
                         <div class="body col-sm-offset-5">
                             <input type="button" class="btn bg-purple waves-effect" data-toggle="modal" data-target="#smallModal" value="Rate & Review">

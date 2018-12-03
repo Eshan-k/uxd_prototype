@@ -21,21 +21,28 @@
 
                     <div class="body">
                         <h2 class="card-inside-title">
-                            <img src="../../public/images/greer.jpg" style="width: 250px" height="250px" class="img-responsive">
+                        
                         </h2>
                         <div class="row clearfix">
-                            <div class="col-sm-12">
-                                <div class="form-group">
-                                    <h3>
-                                        Master's in Computer science - Boston University<br><br>
-                                    </h3>
-                                    <h4>
-                                        Office Hours: Thursday, 1pm - 4pm<br><br>
-                                        Email: greer@faculty.com<br><br>
-                                        Course Pre-requisite : Knowledge of C, C++ or approval from advisor.
-                                    </h4>
-                                </div>
-                            </div>
+                            <table>
+                                <tr>
+                                    <td align="left" width="450px">
+                                        <img src="../../public/images/greer.jpg" style="width: 250px" height="250px" class="img-responsive">
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <h3>
+                                                Master's in Computer science - Boston University<br><br>
+                                            </h3>
+                                            <h4>
+                                                Office Hours: Thursday, 1pm - 4pm<br><br>
+                                                Email: greer@faculty.com<br><br>
+                                                Course Pre-requisite : Knowledge of C, C++ or approval from advisor.
+                                            </h4>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
                         </div>
                         <div class="body col-sm-offset-5">
                             <input type="button" class="btn bg-purple waves-effect" data-toggle="modal" data-target="#smallModal" value="Rate & Review">
