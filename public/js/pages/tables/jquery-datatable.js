@@ -2,8 +2,16 @@ $(function () {
     $('.js-basic-example').DataTable({
         responsive: true,
         "language": {
-            "search": "Filter records:"
-        }
+            "search": "Search Keyword"
+        },
+        "order": [[ 0, "desc" ]]
+    });
+
+    $('.js-basic-example0').DataTable({
+        responsive: true,
+        "language": {
+            "search": "Search Keyword"
+        },
     });
 
     //Exportable table
@@ -14,7 +22,8 @@ $(function () {
             'copy', 'csv', 'excel', 'pdf', 'print'
         ],
         "language": {
-            "search": "Filter records:"
-        }
+            "search": "Search Keyword"
+        },
+        "order": [[ 0, "asc" ]]
     });
 });

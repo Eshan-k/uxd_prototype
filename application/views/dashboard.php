@@ -23,7 +23,7 @@
                                 <div class="col-lg-4 col-md-4 col-sm-2 col-xs-5">
                                     <div class="form-group">
                                         <div class="form-line">
-                                            <input type="text" id="college" class="form-control" autocomplete="off" placeholder="Enter your College">
+                                            <input type="text" id="college" class="form-control" autocomplete="off" required placeholder="Enter your College">
                                         </div>
                                     </div>
                                 </div>
@@ -35,7 +35,7 @@
                                 <div class="col-lg-4 col-md-4 col-sm-2 col-xs-5">
                                     <div class="form-group">
                                         <div class="form-line">
-                                            <input type="text" id="dept" class="form-control" autocomplete="off" placeholder="Enter your Department">
+                                            <input type="text" id="dept" class="form-control" autocomplete="off" required placeholder="Enter your Department">
                                         </div>
                                     </div>
                                 </div>

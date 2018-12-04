@@ -26,8 +26,8 @@
                         <div class="row clearfix">
                             <table>
                                 <tr>
-                                    <td align="left" width="450px">
-                                        <img src="../../public/images/greer.jpg" style="width: 250px" height="250px" class="img-responsive">
+                                    <td align="left" width="400px">
+                                        <img src="../../public/images/greer.jpg" style="margin-left: 5%" width="300px" height="300px" class="img-responsive">
                                     </td>
                                     <td>
                                         <div class="form-group">
@@ -87,7 +87,7 @@
                             <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper form-inline dt-bootstrap">
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <table class="table table-hover js-basic-example dataTable" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+                                        <table class="table table-hover dataTable" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
                                             <thead>
                                             <tr role="row">
                                                 <th class="sorting_desc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1"  aria-sort="descending" colspan="1">Date</th>
@@ -96,6 +96,14 @@
                                                 <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1">Rating</th>
                                             </tr>
                                             </thead>
+                                            <tbody>
+                                            <tr id="xyz" role="row" class="even">
+                                                <td id="s_date"></td>
+                                                <td id="s_name"></td>
+                                                <td id="s_review"></td>
+                                                <td id="s_rate"></td>
+                                            </tr>
+                                            </tbody>
                                             <tbody>
                                             <tr role="row" class="odd">
                                                 <td>7/26/2017</td>
@@ -121,12 +129,6 @@
                                                 <td>Lots of Assignment</td>
                                                 <td>3</td>
                                             </tr>
-                                            <tr id="xyz" role="row" class="even">
-                                                <td id="s_date"></td>
-                                                <td id="s_name"></td>
-                                                <td id="s_review"></td>
-                                                <td id="s_rate"></td>
-                                            </tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -146,7 +148,7 @@
         </div>
         <!-- Ratings and Reviews End-->
         <div class="modal fade" id="smallModal" tabindex="-1" role="dialog" style="display: none;">
-            <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-dialog modal-md" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h4 class="modal-title" id="smallModalLabel">Rate & Review</h4>
@@ -170,7 +172,8 @@
                                     <i class="material-icons">star</i>
                                 </span>
                                     <div class="form-line">
-                                        <input type="text" id="rate" name="rate" class="form-control" placeholder="Ex: 2.5, 4">
+                                        <input type="text" id="rate" name="rate" step="0.5" class="form-control" placeholder="Ex: 2.5, 4" maxlength="3" min="1" onblur="check_increment();">
+                                        <span id="red" class="text-danger"></span>
                                     </div>
                                 </div>
                             </div>
@@ -182,7 +185,18 @@
                                                 <i class="material-icons"></i>
                                             </span>
                                     <div class="form-line">
-                                        <input type="text" id="review" name="review" class="form-control" placeholder="">
+                                        <input type="text" id="review" name="review" class="form-control" placeholder="" onclick="check_increment();">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <b>Choose tag</b>
+                                <div class="body">
+                                    <div class="form-group demo-tagsinput-area">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" data-role="tagsinput" value="Tough Exam, Lot of Assignment, Easy Grader, Good Faculty">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -215,15 +229,26 @@
     function set_value() {
         var rating = document.getElementById("rate").value;
         var review = document.getElementById("review").value;
-        
 
-        document.getElementById("s_date").innerHTML = '<?php echo date('m/d/Y')?>';
+        document.getElementById("s_date").textContent = '<?php echo date('m/d/Y')?>';
 
-        document.getElementById("s_name").innerHTML = 'Sean';
-        document.getElementById("s_rate").innerHTML = rating;
-        document.getElementById("s_review").innerHTML = review;
-
+        document.getElementById("s_name").textContent = 'Sean';
+        document.getElementById("s_rate").textContent = rating;
+        document.getElementById("s_review").textContent = review;
 
         //document.getElementById("xyz").style.display = 'block';
     }
+
+    function check_increment() {
+        var number = document.getElementById("rate").value;
+
+        if((number%0.5) != 0) {
+            document.getElementById("red").textContent = 'Please Enter value with 0.5 increment';
+        }
+        else {
+            document.getElementById("red").textContent = '';
+        }
+    }
+
+
 </script>

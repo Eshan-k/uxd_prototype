@@ -14,6 +14,7 @@
 
     <!-- Bootstrap Core Css -->
     <link href="../../../public/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../../public/plugins/multi-select/css/multi-select.css" rel="stylesheet">
 
     <!-- Waves Effect Css -->
     <link href="../../../public/plugins/node-waves/waves.css" rel="stylesheet" />
@@ -23,6 +24,8 @@
 
     <!-- Morris Chart Css-->
     <link href="../../../public/plugins/morrisjs/morris.css" rel="stylesheet" />
+
+    <link href="../../../public/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css" rel="stylesheet">
 
     <!-- Custom Css -->
     <link href="../../../public/css/style.css" rel="stylesheet">
