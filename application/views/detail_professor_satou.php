@@ -11,7 +11,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="header">
-                        <h3 class="text-black">Professor James Satou</h3>
+                        <h3 class="text-black">Professor Satou</h3>
                         <h2>CS - 608, Introduction to Computer Architecture
                             <span><a target="_blank" href="#">LinkedIn</a></span></h2>
                         <span class="header-dropdown m-r--5">
@@ -168,25 +168,25 @@
                                 <span class="input-group-addon">
                                     <i class="material-icons">person</i>
                                 </span>
-                                    <b>Prof. Satou</b>
+                                    <h4><b>Prof. Satou</b></h4>
                                 </div>
                             </div>
-                            
+
                             <div class="col-md-12">
-                                <b>Rate</b>
+                                <h4><b>Rate</b></h4>
                                 <div class="input-group">
                                 <span class="input-group-addon">
                                     <i class="material-icons">star</i>
                                 </span>
                                     <div class="form-line">
-                                        <input type="text" id="rate" name="rate" step="0.5" class="form-control" maxlength="3" placeholder="Ex: 2.5, 4" min="1" onblur="check_increment();">
+                                        <input type="text" id="rate" name="rate" step="0.5" class="form-control" placeholder="Ex: 2.5, 4 (Minimum 1 point, Minimum 5 point)" maxlength="3" min="1" onblur="check_increment();">
                                         <span id="red" class="text-danger"></span>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-md-12">
-                                <b>Review</b>
+                                <h4><b>Review</b></h4>
                                 <div class="input-group">
                                             <span class="input-group-addon">
                                                 <i class="material-icons"></i>
@@ -198,11 +198,13 @@
                             </div>
 
                             <div class="col-md-12">
-                                <b>Choose tag</b>
+                                <h4><b>Choose tag</b></h4>
                                 <div class="body">
                                     <div class="form-group demo-tagsinput-area">
                                         <div class="form-line">
-                                            <input type="text" class="form-control" data-role="tagsinput" value="Tough Exam, Lot of Assignment, Easy Grader, Good Faculty">
+                                            <h4>
+                                                <input type="text" class="form-control" data-role="tagsinput" value="Tough Exam, Lot of Assignment, Easy Grader, Good Faculty">
+                                            </h4>
                                         </div>
                                     </div>
                                 </div>
