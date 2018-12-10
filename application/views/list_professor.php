@@ -92,7 +92,7 @@
                                                     </td>
                                                     <td>CS - 634</td>
                                                     <td>Data Mining</td>
-                                                    <td><span class="bg-orange">3.0</span></td>
+                                                    <td><span class="label bg-orange">3.0</span></td>
                                                     <td>
                                                         <span class="label bg-amber">Take classes on Saturday</span>
                                                         <span class="label bg-amber">Lots of assignment</span>
