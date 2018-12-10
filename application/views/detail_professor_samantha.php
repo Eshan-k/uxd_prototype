@@ -189,7 +189,7 @@
                                     <i class="material-icons">star</i>
                                 </span>
                                     <div class="form-line">
-                                        <input type="text" id="rate" name="rate" step="0.5" class="form-control" placeholder="Ex: 2.5, 4 (Minimum 1 point, Minimum 5 point)" maxlength="3" min="1" onblur="check_increment();">
+                                        <input type="text" id="rate" name="rate" step="0.5" class="form-control" placeholder="Ex: 2.5, 4 (Minimum 1 point, Maximum 5 point)" maxlength="3" min="1" onblur="check_increment();">
                                         <span id="red" class="text-danger"></span>
                                     </div>
                                 </div>
