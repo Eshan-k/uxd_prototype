@@ -156,6 +156,7 @@
 
         <div class="modal fade" id="smallModal" tabindex="-1" role="dialog" style="display: none;">
             <div class="modal-dialog modal-md" role="document">
+                <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">X</button>
                 <div class="modal-content">
                     <div class="modal-header">
                         <h4 class="modal-title" id="smallModalLabel">Rate & Review</h4>
