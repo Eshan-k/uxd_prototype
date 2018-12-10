@@ -178,7 +178,7 @@
                                 <span class="input-group-addon">
                                     <i class="material-icons">person</i>
                                 </span>
-                                    <h4><b>Samamtha Johnson</b></h4>
+                                    <h4><b>Samantha Johnson</b></h4>
                                 </div>
                             </div>
                             

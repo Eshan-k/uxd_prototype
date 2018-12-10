@@ -59,7 +59,7 @@
                                                     </td>
                                                     <td>CS - 608</td>
                                                     <td>Introduction to Computer Architecture</td>
-                                                    <td>2.5</td>
+                                                    <td class="bg-red">2.5</td>
                                                     <td>
                                                         <span class="label bg-red">Not Recommended</span>
                                                     </td>
@@ -74,7 +74,7 @@
                                                     </td>
                                                     <td>CS - 634</td>
                                                     <td>Data Mining</td>
-                                                    <td>4.0</td>
+                                                    <td class="bg-green">4.0</td>
                                                     <td>
                                                         <span class="label bg-green">Will take his course again</span>
                                                         <span class="label bg-green">Good Work Experience</span> <br><br>
@@ -92,7 +92,7 @@
                                                     </td>
                                                     <td>CS - 634</td>
                                                     <td>Data Mining</td>
-                                                    <td>3.0</td>
+                                                    <td class="bg-orange">3.0</td>
                                                     <td>
                                                         <span class="label bg-amber">Take classes on Saturday</span>
                                                         <span class="label bg-amber">Lots of assignment</span>
@@ -109,7 +109,7 @@
                                                     </td>
                                                     <td>CS - 645</td>
                                                     <td>Internet and Higher Level Protocol</td>
-                                                    <td>2.5</td>
+                                                    <td class="bg-red">2.5</td>
                                                     <td>
                                                         <span class="label bg-red">Won't take again</span>
                                                         <span class="label bg-red">Tough Grader</span>
@@ -125,7 +125,7 @@
                                                     </td>
                                                     <td>CS - 645</td>
                                                     <td>Internet and Higher Level Protocol</td>
-                                                    <td>3.5</td>
+                                                    <td class="bg-amber">3.5</td>
                                                     <td>
                                                         <span class="label bg-amber">Lots of assignment though</span>
                                                         <span class="label bg-green">Nice Faculty</span>
@@ -141,7 +141,7 @@
                                                     </td>
                                                     <td>CS - 632</td>
                                                     <td>OS</td>
-                                                    <td>3.0</td>
+                                                    <td class="bg-orange">3.0</td>
                                                     <td>
                                                         <span class="label bg-amber">Lots of Assignment</span>
                                                         <span class="label bg-orange">Tough Exams</span>
@@ -157,7 +157,7 @@
                                                     </td>
                                                     <td>CS - 632</td>
                                                     <td>OS</td>
-                                                    <td>2.5</td>
+                                                    <td class="bg-red">2.5</td>
                                                     <td>
                                                         <span class="label bg-red">Not Recommended</span>
                                                         <span class="label bg-red">Learned Nothing</span>
