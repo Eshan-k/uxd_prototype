@@ -98,7 +98,7 @@
                             <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper form-inline dt-bootstrap">
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <table class="table table-hover dataTable" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+                                        <table class="table table-hover table-striped dataTable" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
                                             <thead>
                                             <tr role="row">
                                                 <th class="sorting_desc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1"  aria-sort="descending" colspan="1">Date</th>
@@ -120,31 +120,31 @@
                                                 <td>07/26/2017</td>
                                                 <td>Student 1a</td>
                                                 <td>Nice Faculty, learned a lot.</td>
-                                                <td>4</td>
+                                                <td><span class="label bg-green">4.0</span></td>
                                             </tr>
                                             <tr role="row" class="even">
                                                 <td>02/11/2017</td>
                                                 <td>Student 2b</td>
                                                 <td>Lot of assignment.</td>
-                                                <td>3.5</td>
+                                                <td><span class="label bg-amber">3.5</span></td>
                                             </tr>
                                             <tr role="row" class="odd">
                                                 <td>12/22/2016</td>
                                                 <td>Student 3c</td>
                                                 <td>Good work experience.</td>
-                                                <td>4</td>
+                                                <td><span class="label bg-green">4.0</span></td>
                                             </tr>
                                             <tr role="row" class="even">
                                                 <td>11/2/2016</td>
                                                 <td>Student 4d</td>
                                                 <td>Teaches through industry experience.</td>
-                                                <td>4</td>
+                                                <td><span class="label bg-green">4.0</span></td>
                                             </tr>
                                             <tr role="row" class="odd">
                                                 <td>10/1/2016</td>
                                                 <td>Student 5e</td>
                                                 <td>Nice Faculty.</td>
-                                                <td>4</td>
+                                                <td><span class="label bg-green">4.0</span></td>
                                             </tr>
                                             </tbody>
                                         </table>
