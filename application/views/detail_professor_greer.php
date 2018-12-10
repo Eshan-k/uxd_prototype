@@ -98,7 +98,7 @@
                                             </thead>
                                             <tbody>
                                             <tr id="xyz" role="row" class="even">
-                                                <td id="s_date" class="italic"></td>
+                                                <td id="s_date"></td>
                                                 <td id="s_name"></td>
                                                 <td id="s_review"></td>
                                                 <td id="s_rate"></td>
