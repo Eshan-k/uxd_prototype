@@ -98,7 +98,7 @@
                                             </thead>
                                             <tbody>
                                             <tr id="xyz" role="row" class="even">
-                                                <td id="s_date"></td>
+                                                <td id="s_date"><i></i></td>
                                                 <td id="s_name"></td>
                                                 <td id="s_review"></td>
                                                 <td id="s_rate"></td>
@@ -234,7 +234,7 @@
 
         document.getElementById("s_date").textContent = '<?php echo date('m/d/Y')?>';
 
-        document.getElementById("s_name").textContent = 'student name';
+        document.getElementById("s_name").textContent = 'Student name';
         document.getElementById("s_rate").textContent = rating;
         document.getElementById("s_review").textContent = review;
 
