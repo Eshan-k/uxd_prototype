@@ -21,7 +21,7 @@
                             <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper form-inline dt-bootstrap">
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <table class="table table-hover table-responsive js-basic-example0 dataTable" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+                                        <table class="table table-hover table-striped table-responsive js-basic-example0 dataTable" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
                                             <thead>
                                                 <tr role="row">
                                                     <th class="" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Name: activate to sort column ascending">Name</th>
